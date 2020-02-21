@@ -27,7 +27,7 @@ services:
    ports:
      - "5672:5672"
  orders-api:
-   image: mike
+   image: michaelpabon/orders
    ports:
      - "9090:9090"
    links:
