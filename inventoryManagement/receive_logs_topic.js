@@ -36,9 +36,19 @@ amqp.connect('amqp://rabbitmq:5672', function (error0, connection) {
       args.forEach(function (key) {
         channel.bindQueue(q.queue, exchange, key);
       });
-
+      //Consume Order Created Message &
       channel.consume(q.queue, function (msg) {
         console.log(" [x] %s:'%s'", msg.fields.routingKey, msg.content.toString());
+        var message = JSON.parse(msg.content);
+        var bookId = message.bookId;
+        var orderQuantity = message.orderQuantity;
+        checkStock(bookId);
+
+        //Get quantity of 'bookId` in stock
+
+        
+        //Publish message to webhook server
+        /*
         const options = {
           headers: {
             'Content-Type': 'application/json'
@@ -49,9 +59,21 @@ amqp.connect('amqp://rabbitmq:5672', function (error0, connection) {
         }, (error) => {
           console.log(error);
         });
+        */
       }, {
         noAck: true
       });
     });
   });
 });
+
+function checkStock(bookId){
+  axios.get('http://inventory-api:4567/books/' + bookId)
+  .then((response) => {
+    console.log(response.data);
+    console.log(response.status);
+    console.log(response.statusText);
+    console.log(response.headers);
+    console.log(response.config);
+  });
+}

@@ -33,3 +33,10 @@ services:
    links:
      - inventory-api
      - rabbitmq
+ inventory-mgmt:
+   image: invmgmt
+   restart: always
+   ports:
+    - "9091:9091"
+   links:
+    - rabbitmq
