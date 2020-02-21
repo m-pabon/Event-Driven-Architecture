@@ -1,0 +1,35 @@
+# note: if you are using version 2 of Docker Compose, change the version number to '2' below and this should still work
+version: '3'
+
+services:
+ catalog-api:
+   image: gcr.io/launchany-labs/labs-catalog-api
+   ports:
+     - "4567:4567"
+   links:
+     - rabbitmq
+     - webeventd
+ inventory-api:
+   image: gcr.io/launchany-labs/labs-inventory-api
+   ports:
+     - "4568:4567"
+   links:
+     - rabbitmq
+     - webeventd
+ webeventd:
+   image: gcr.io/launchany-labs/webeventd-r1
+   ports:
+     - "9292:9292"
+   links:
+     - rabbitmq
+ rabbitmq:
+   image: rabbitmq
+   ports:
+     - "5672:5672"
+ orders-api:
+   image: mike
+   ports:
+     - "9090:9090"
+   links:
+     - inventory-api
+     - rabbitmq

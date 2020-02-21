@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="orders:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b8e82695-ffc9-4399-ab1a-7c26edc58052" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XgpsC5dT8xLYiWFkjwvsGLa0LX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/build/libs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.21264368" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle :copyRuntimeLibs" />
+      <command value="gradle copyRuntimeLibs" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.orders [copyRuntimeLibs]">
+    <configuration name="orders [:copyRuntimeLibs]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":copyRuntimeLibs" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="orders [copyRuntimeLibs]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="copyRuntimeLibs" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.orders [:copyRuntimeLibs]" />
+        <item itemvalue="Gradle.orders [copyRuntimeLibs]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8e82695-ffc9-4399-ab1a-7c26edc58052" name="Default Changelist" comment="" />
+      <created>1581477795464</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581477795464</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="415" y="23" key="#Dockerfile" timestamp="1581524186748">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="415" y="23" key="#Dockerfile/0.23.1440.797@0.23.1440.797" timestamp="1581524186748" />
+    <state x="320" y="87" key="#Notifications" timestamp="1581524176507">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="320" y="87" key="#Notifications/0.23.1440.797@0.23.1440.797" timestamp="1581524176507" />
+    <state x="314" y="87" key="#Project_Structure" timestamp="1581533851073">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="314" y="87" key="#Project_Structure/0.23.1440.797@0.23.1440.797" timestamp="1581533851073" />
+    <state x="697" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581478550883">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="697" y="302" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1920.977@0.23.1920.977" timestamp="1581478550883" />
+    <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581518634701">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="458" y="175" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.797@0.23.1440.797" timestamp="1581518634701" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1582042213256">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.797@0.23.1440.797" timestamp="1581538224276" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1582042213256" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1582042213255">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.797@0.23.1440.797" timestamp="1581538224276" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1582042213255" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1582042213231">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.797@0.23.1440.797" timestamp="1581538224275" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1582042213231" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1582042213256">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1581538224276" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1582042213256" />
+    <state x="336" y="23" key="SettingsEditor" timestamp="1581534103156">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="336" y="23" key="SettingsEditor/0.23.1440.797@0.23.1440.797" timestamp="1581534103156" />
+    <state x="448" y="93" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1581478576154" />
+    <state x="397" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1581524134939">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="397" y="254" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1581524134939" />
+    <state x="312" y="57" width="1128" height="729" key="find.popup" timestamp="1581519240382">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="312" y="57" width="1128" height="729" key="find.popup/0.23.1440.797@0.23.1440.797" timestamp="1581519240382" />
+    <state x="97" y="44" key="new project wizard" timestamp="1581534675348">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="97" y="44" key="new project wizard/0.23.1440.797@0.23.1440.797" timestamp="1581534675347" />
+    <state x="594" y="135" width="670" height="675" key="run.anything.popup" timestamp="1581536085297">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="594" y="135" width="670" height="675" key="run.anything.popup/0.23.1440.797@0.23.1440.797" timestamp="1581536085297" />
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup" timestamp="1581517660109">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="385" y="144" width="670" height="676" key="search.everywhere.popup/0.23.1440.797@0.23.1440.797" timestamp="1581517660109" />
+  </component>
+</project>
