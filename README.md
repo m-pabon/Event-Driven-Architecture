@@ -1,6 +1,9 @@
 # Event-Driven-Architecture
 This project is the implementation of a portion of an online bookstore application. I made this to test of common technologies and patterns that are commonly used with event driven architectures &amp; microservices.
 
+## Project Gist
+![Gist](https://gist.github.com/jhigginbotham/b44dd750459a98e3f7e7387817114634)
+
 ## Deploy using Docker-Compose
 `docker-compose -p bookstore up`
 
