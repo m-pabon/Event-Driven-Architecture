@@ -34,7 +34,7 @@ services:
      - inventory-api
      - rabbitmq
  inventory-mgmt:
-   image: invmgmt
+   image: mpabon/invmgmt
    restart: always
    ports:
     - "9091:9091"
