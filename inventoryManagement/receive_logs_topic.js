@@ -52,7 +52,6 @@ async function updateInventory(bookId, orderQuantity){
     return response.data;
   });
   let result = await promise;
-  console.log(result);
   let quantityOnHand = result.quantityOnHand;
   let newQuantityOnHand = quantityOnHand - orderQuantity;
   //Update inventory quantity
@@ -64,8 +63,33 @@ async function updateInventory(bookId, orderQuantity){
     }
   })
   .then((response) => {
-    console.log(response);
+    console.log('Order quantity updated succesfully');
+    publishMessage('Inventory Updated');
   }, (error) => {
     console.log(error);
+  });
+}
+
+function publishMessage(msg){
+  amqp.connect('amqp://rabbitmq:5672', function(error0, connection) {
+    if (error0) {
+      throw error0;
+    }
+    connection.createChannel(function(error1, channel) {
+      if (error1) {
+        throw error1;
+      }
+      var exchange = 'orders';
+      var key = 'order.inventoryUpdated';
+
+      channel.assertExchange(exchange, 'topic', {
+        durable: false
+      });
+      channel.publish(exchange, key, Buffer.from(msg));
+      console.log(" [x] Sent %s:'%s'", key, msg);
+    });
+    setTimeout(function() { 
+      connection.close(); 
+    }, 500);
   });
 }
